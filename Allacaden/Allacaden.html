@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f2f4f5;
+      height: 2700px;
+      overflow-x:hidden;
+    }
+
+    #picnya {
+      width: 200px;
+      height: 200px;
+      left: 40px;
+      top: 40px;
+    }
+
+    #name {
+      position: absolute;
+      left: 270px;
+      top: 85px;
+      font-size: 40px;
+      font-family: 'Oswald';
+    }
+
+    #friends {
+      position: absolute;
+      font-size: 30px;
+      font-family: 'Oswald';
+      left: 55px;
+      top: 240px;
+    }
+
+    .imgall {
+      position: absolute;
+      border: grey;
+      border-radius: 50%;
+      background-color: #dee1e3;
+    }
+
+    #rb1 {
+      top: 340px;
+      left: 55px;
+    }
+
+    #rb2 {
+      top: 340px;
+      left: 245px;
+    }
+
+    #rb3 {
+      top: 340px;
+      left: 445px;
+    }
+
+    #rb4 {
+      top: 340px;
+      left: 645px;
+    }
+
+    #rb5 {
+      top: 340px;
+      left: 845px;
+    }
+
+    #rb6 {
+      top: 340px;
+      left: 1045px;
+    }
+
+    #rb7 {
+      top: 340px;
+      left: 1245px;
+    }
+
+    .pbois {
+      top: 485px;
+      position: absolute;
+      font-family: 'Oswald';
+    }
+
+    #rb1name {
+      position: absolute;
+      left: 80px;
+    }
+
+    #rb2name {
+      left: 275px;
+      position: absolute;
+    }
+
+    #rb3name {
+      left: 490px;
+      position: absolute;
+    }
+
+    #rb4name {
+      left: 685px;
+      position: absolute;
+    }
+
+    #rb5name {
+      left: 895px;
+      position: absolute;
+    }
+
+    #rb6name {
+      left: 1075px;
+      position: absolute;
+    }
+
+    #rb7name {
+      left: 1275px;
+      position: absolute;
+    }
+
+    #SeeAll {
+      position: absolute;
+      left: 1275px;
+      font-size: 30px;
+      font-family: 'Oswald';
+      top: 260px;
+      font-color: black;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    a:link {
+      text-decoration: none;
+    }
+
+    a:visited {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    a:active {
+      text-decoration: underline;
+    }
+
+    #continue {
+      position: absolute;
+      font-size: 30px;
+      font-family: 'Oswald';
+      left: 50px;
+      top: 45px;
+    }
+
+    #SeeAll2 {
+      left: 1270px;
+      position: relative;
+      top: 65px;
+      font-family: 'Oswald'
+        font-color:black;
+      font-size: 30px;
+    }
+
+    .gamesIMG {
+      border: none;
+      border-radius: 9px;
+      position: absolute;
+      top: 635px;
+      height: 200px;
+      width: 200px;
+    }
+
+    #genshin {
+      position: absolute;
+      left: 40px;
+      transition: all 0.2s;
+    }
+    #genshin:hover{
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+
+    #valo {
+      position: absolute;
+      left: 267px;
+      transition: all 0.2s;
+    }
+    #valo:hover{
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+
+    #LoL {
+      position: absolute;
+      left: 495px;
+      transition: all 0.2s;
+    }
+    #LoL:hover{
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+
+    #minecraft {
+      position: absolute;
+      left: 725px;
+      transition: all 0.2s;
+    }
+    #minecraft:hover{
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+
+    #osu {
+      position: absolute;
+      left: 953px;
+      transition: all 0.2s;
+    }
+    #osu:hover{
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+
+    #brookhaven {
+      position: absolute;
+      left: 1180px;
+      transition: all 0.2s;
+    }
+    #brookhaven:hover{
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+
+    #NameOfGames1 {
+      position: absolute;
+      top: 345px;
+    }
+
+    #gam1 {
+      position: absolute;
+      left: 40px;
+    }
+
+    #gam2 {
+      position: absolute;
+      left: 272px;
+    }
+
+    #gam3 {
+      position: relative;
+      left: 500px;
+      top: 300px;
+    }
+
+    #gam4 {
+      position: absolute;
+      left: 730px;
+    }
+
+    #gam5 {
+      position: absolute;
+      left: 960px;
+    }
+
+    #gam6 {
+      position: absolute;
+      left: 1185px;
+    }
+
+    #noglink:hover {
+      text-decoration: none;
+    }
+
+    #noglink:active {
+      text-decoration: none;
+    }
+
+    hr {
+      position: absolute;
+      width: 1000px;
+      top: 500px;
+      left: 200px;
+    }
+
+    .aboutmyself {
+      position: absolute;
+      top: 500px;
+      width: 500px;
+      left: 565px;
+    }
+
+    #aboutmyself {
+      font-size: 60px;
+    }
+
+    .Likes {
+      position: absolute;
+      background-color: #dee1e3;
+      width: 500px;
+      height: 400px;
+      text-align: center;
+      top: 700px;
+      left: 200px;
+
+    }
+
+    .Dislikes {
+      position: absolute;
+      background-color: #dee1e3;
+      width: 500px;
+      height: 400px;
+      text-align: center;
+      top: 700px;
+      left: 720px;
+    }
+
+    #khalid {
+      width: 120px;
+      height: 120px;
+      position: absolute;
+      right: 300px;
+      top: 50px;
+
+    }
+
+    #robux {
+      width: 120px;
+      height: 120px;
+      position: absolute;
+      left: 275px;
+      top: 60px;
+    }
+
+    #spicy {
+      width: 120px;
+      height: 120px;
+      position: absolute;
+      top: 230px;
+      right: 275px;
+      border-radius: 8px;
+    }
+
+    #play {
+      width: 120px;
+      height: 120px;
+      position: absolute;
+      top: 230px;
+      left: 275px;
+    }
+
+    #khalidtext {
+      font-size: 20px;
+      position:absolute;
+      top:160px;
+      right:320px;
+    }
+
+    #robuxtext {
+      font-size: 20px;
+      position:absolute;
+      top:160px;
+      left:305px;
+
+    }
+
+    #spicytext {
+      font-size: 20px;
+      position:absolute;
+      top:330px;
+      right:290px;
+    }
+
+    #playtext {
+      font-size: 20px;
+      position:absolute;
+      top:330px;
+      left:305px;
+    }
+    #badteam{
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      right: 300px;
+      top:120px;
+    }
+    #badteamtext{
+      font-size: 20px;
+      position:absolute;
+      top:260px;
+      right:315px;
+    }
+    #hot{
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      left: 300px;
+      top: 130px;
+    }
+    #hottext{
+      font-size: 20px;
+      position:absolute;
+      top:260px;
+      left:300px;
+    }
+    .hobbies{
+      background-color: #dee1e3;
+      position:absolute;
+      left:660px;
+      top:1120px;
+      text-align: center;
+      font-size:30px;
+    }
+    #kentavatar{
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      left: 40px;
+      top: 1300px;
+      border-radius: 50%;
+      background-color: #dee1e3;
+    }
+    #kentavatartext{
+      position: absolute;
+      left: 270px;
+      top: 1320px;
+      font-size: 40px;
+      font-family: 'Oswald';
+      width:200px;
+    }
+    .funfacts{
+      background-color: #dee1e3;
+      position: absolute;
+      top: 1550px;
+      left:70px;
+      width:1250px;
+      border-radius: 10px;
+      height:100px;
+    }
+    #textarea1{
+      padding-left:25px;
+    }
+    #textarea1title{
+      font-size:25px;
+      position:absolute;
+      top:1490px;
+      left:80px;
+      width:400px;
+    }
+    #keepyoursafe{
+      position:absolute;
+      top:1640px;
+      left:80px;
+      width:1000px;
+      font-size:13px;
+      font-family:Century Gothic;
+      color:#606162;
+    }
+    #a1000{
+      position:absolute;
+      top:1640px;
+      left:1270px;
+      width:1000px;
+      font-size:10px;
+      font-family:Century Gothic;
+      color:#606162;
+    }
+    .hobbies{
+      width:200px;
+      position:absolute;
+      left:610px;
+    }
+    #wear{
+      position:absolute;
+      background-color: #dee1e3;
+      top:1850px;
+      left:70px;
+      width:500px;
+      height:300px;
+    }
+    #kentdoll1{
+      position:absolute;
+      left: 85px;
+      width:320px;
+      height:320px;
+    }
+    #curwear{
+      font-size:25px;
+      position:absolute;
+      top:1780px;
+      left:80px;
+      width:300px;
+    }
+   #lablab2{
+     color:black;
+     position: absolute;
+     top:-340px;
+     left:260px;
+     font-size:25px;
+   }
+  </style>
+  <title>About Allacaden</title>
+</head>
+
+<body>
+  <div>
+    <img class="imgall" id="picnya" src="Allacaden-img.png">
+    <img class="imgall" id="rb1" src="rb1.png">
+    <img class="imgall" id="rb2" src="rb2.png">
+    <img class="imgall" id="rb3" src="rb3.png">
+    <img class="imgall" id="rb4" src="rb4.png">
+    <img class="imgall" id="rb5" src="rb5.png">
+    <img class="imgall" id="rb6" src="rb6.png">
+    <img class="imgall" id="rb7" src="rb7.png">
+    <a href="">
+      <img class="gamesIMG" id="genshin" src="genshin.png">
+      <img class="gamesIMG" id="valo" src="valo.png">
+      <img class="gamesIMG" id="minecraft" src="minecraft.jpeg">
+      <img class="gamesIMG" id="LoL" src="LoL.jfif">
+      <img class="gamesIMG" id="osu" src="osu.jfif">
+      <img class="gamesIMG" id="brookhaven" src="brookhaven.jfif">
+    </a>
+  </div>
+  <div class="Up1">
+    <h1 id="name">Kent Allacaden</h1>
+    <h2 id="friends">Friends (159)</h2>
+    <a href="" id="SeeAll">See All ></a>
+  </div>
+
+      <div class="pbois">
+        <p id="rb1name">LazyExtremer</p>
+        <p id="rb2name">KrazySuS96</p>
+        <p id="rb3name">Miko22</p>
+        <p id="rb4name">AllenRB</p>
+        <p id="rb5name">iFrag</p>
+        <p id="rb6name">Michelle_23</p>
+        <p id="rb7name">Bacon543_xD</p>
+        <div>
+          <div class="Up2">
+            <h2 id="continue">Favorites</h2>
+            <a href="" id="SeeAll2">See All ></a>
+          </div>
+          <div id="NameOfGames1">
+            <a href="">
+              <h3 id="gam1">Genshin Impact</h3>
+              <h3 id="gam2">Valorant</h3>
+              <h3 id="gam4">Minecraft</h3>
+              <h3 id="gam5">Osu!</h3>
+              <h3 id="gam6">Brookhaven</h3>
+            </a>
+          </div>
+          <div id="NameOfGames2">
+            <a href="" id="noglink">
+              <h3 id="gam3">League of Legends</h3>
+            </a>
+          </div>
+          <hr>
+          <div class="aboutmyself">
+            <h1 id="aboutmyself"> About Myself</h1>
+          </div>
+          <div class="Likes">
+
+            <h2>Likes</h2>
+            <img id="khalid" src="khalidnobg.png">
+            <img id="spicy" src="spicynobg.png">
+            <img id="robux" src="robuxnobg.png">
+            <img id="play" src="playnobg.png">
+            <p id="khalidtext">Khalid</p>
+            <p id="spicytext">Spicy Foods</p>
+            <p id="robuxtext">Robux</p>
+            <p id="playtext">Playing</p>
+          </div>
+          <div class="Dislikes">
+            <h2>Dislikes</h2>
+            <img id="badteam" src="badteam.png">
+            <img id="hot" src="hot.png">
+            <p id="badteamtext">Bad Teamates</p>
+            <p id="hottext">Hot Temperature</p>
+
+          </div>
+          <div class="hobbies">
+            <a href="#continue">See Hobbies</a>
+          </div>
+          <hr style="top:1200px">
+          <img  id="kentavatar" src="kentavatar.png">
+          <h1 id="kentavatartext">Kent's Character</h1>
+          <div class="funfacts">
+            <p id="textarea1">I am proud of my school project which is my Slogan. Fun fact about me is Malakas ako mag roblox.</p>
+          </div>
+  <p id="textarea1title">Fun facts</p>
+  <p id="keepyoursafe">Keep yourself safe, do not share personal details online.</p>
+  <p id="a1000"> 96/1000</p>
+        <hr style="top:1750px">
+        <div id="wear">
+          <img id="kentdoll1" src="kentdoll.png">
+        </div>
+             <h2 id="curwear">Currently Wearing</h2>
+             <h1 id="lablab2">"LabLab"</h1>
+</body>
+
+</html>

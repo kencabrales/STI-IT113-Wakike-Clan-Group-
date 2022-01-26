@@ -1,0 +1,385 @@
+*{
+    overscroll-behavior: contain;
+}
+
+body {
+    height: 10rem;
+    overflow-x: hidden; 
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+    /** Home START **/
+    
+    .background-image-home {
+        position: relative;
+        top: -8rem;   
+        line-height: 8px;
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    
+    .KB {
+        font-family: sans-serif;
+        font-size: 21px;
+        font-weight: bold;
+        top: -1rem;
+        left: 1rem;
+        position: absolute;
+    }
+    
+    .just-do-it {
+        color: #c82a20;
+        text-align: center;
+        font-size: 2rem;
+        position:relative;
+        bottom: 40rem;
+        text-decoration: overline;
+        text-shadow: 3px 3px #b50d07;
+        font-size: 3rem;
+        font-weight: bold;
+        left: -31.5rem
+    
+    }
+    
+    .if-not-now-when {
+        text-align: center;
+        color: #b50d07;
+        font-size: 1.1rem;
+        font-weight: lighter;
+        position:relative;
+        bottom: 41rem;
+        left: -31.5rem
+    }
+    
+    .Kurt {
+        color: #fff;
+    }
+    
+    .Hub {
+        color: #000000;
+        background: #FF9900 ;
+        border-radius: 5px;
+        padding: 3px 3px 3px 3px;
+    }
+    
+    .header {
+        text-align: center;
+        font-size: 1.5rem;
+        position: relative;
+        top: 1rem;
+    }
+    
+    .header a:hover {
+        color: #b50d07;
+        text-decoration: underline;
+    }
+    
+    .header a {
+        color: #f2f2f2;
+        text-decoration: none; 
+        padding: 14px 16px;
+    }
+
+    /** Home END **/
+    
+    /** Introduction START **/
+
+    .introduction {
+        position: relative;
+        top: -10rem;
+        text-align: center;
+        align-items: center;
+        font-family: 'Atomic Age', cursive ;
+        font-size: 1.5rem;
+        color: #283826;
+        text-decoration: overline;
+        text-shadow: 1px 1px 0px rgb(60 76 55), -1px -1px 0px rgba(0, 0, 0, 1), 2px -4px 2px rgb(86 100 79);
+
+    }
+    
+    .sandtext-introduction {
+        position: relative;
+        top: -5rem;
+        left: 20rem;
+        text-align: center;
+        align-items: center;
+        font-family: 'Atomic Age', cursive ;
+        color: #5f6265;;
+        text-shadow: 1px 1px 0px rgb(39 42 45), -1px -1px 0px rgba(0, 0, 0, 1), 2px -4px 2px rgb(97, 96, 96);
+    }
+    
+    .blacksand-introduction {
+        position: absolute;
+        width: 52rem;
+        height: 28rem;
+        left: 42rem;
+        align-items: center;
+        top: 75rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -1;
+    }
+    
+    .waterglass {
+       position: absolute;
+       width: 37rem;
+       height: 28rem;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       top: 75rem;
+       right: 55rem;
+       z-index: -1;
+    }
+
+    .waterdrop {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: -1.5rem;
+        z-index: -2;
+
+    }
+    
+    .waterleafleft {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40rem;
+        bottom: 50rem;
+        right: 29.4rem;
+        z-index: -3;
+
+
+    }
+
+    .waterleafright {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40rem;
+        bottom: 62rem;
+        left: 29.4rem;
+        z-index: -3;
+
+    }
+
+    /** Introduction END **/
+
+    /** About me START **/
+
+
+
+    .background-image-aboutme {
+        position: absolute;   
+        line-height: 8px;
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+        top: 115rem;
+
+    }
+
+    .board {
+        position: relative;
+        width: 40rem;
+        bottom: 52rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -1;
+        
+    }
+
+    .sandtext-aboutme {
+        top: 44rem;
+        position: relative;
+        text-align: center;
+        align-items: center;
+        text-decoration: underline;
+        font-family: 'Atomic Age', cursive ;
+        color: #485d66;;
+        text-shadow: 1px 1px 0px rgb(0 22 44), -1px -1px 0px rgba(0, 0, 0, 1), 2px -4px 2px rgb(97, 96, 96);
+
+    }
+
+    .aboutme-header {
+        position: relative;
+        font-size: 2rem;
+        bottom: 67rem;
+    }
+
+    .aboutme-paragraph {
+        position: relative;
+        text-align: center;
+        align-items: center;
+        font-size: 1.07rem;
+        bottom: 63rem;
+        line-height: 3;
+    }
+
+    /** About me End **/
+
+    /** Hobbies Start **/
+
+    .hobbies-header {
+        bottom: 46rem;
+        color: white;
+        text-align: center;
+        position: relative;
+        background-color: #3F51B5;
+        margin-left: 44rem;
+        margin-right: 44rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border-radius: 0.5rem;
+        background-image: linear-gradient(to right, red, #580206);
+    }
+
+    .hotel-background {
+        position: absolute;
+        top: 165rem;   
+        line-height: 8px;
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        width: 100%;
+        height: 120%;
+        z-index: -2;
+    }
+
+    .cockfight {
+        height: 15rem;
+        width: 15rem;
+        display: block;
+        margin-left: auto;
+        margin-right: 27rem;
+        margin-top: -50rem
+        
+    }
+
+    .gloves {
+        height: 15rem;
+        width: 15rem;
+        display: block;
+        margin-left: 27rem;
+        margin-right: auto;
+        margin-top: -19.1rem;
+        
+    }
+
+    .gloves, .cockfight{
+        border-radius: 8px;
+        border-style: ridge;
+        padding: 2rem;
+        border-width: 1px;
+        border-color: white;
+
+    }
+
+    .gloves:hover{
+        transform:scale(1.1);
+        z-index: -2;
+    }
+
+     .cockfight:hover{
+        transform:scale(1.1);
+        z-index: -2;
+    }
+    
+    .favorite-header {
+        bottom: 22rem;
+        color: white;
+        text-align: center;
+        position: relative;
+        background-color: #3F51B5;
+        margin-left: 44rem;
+        margin-right: 44rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border-radius: 0.5rem;
+        background-image: linear-gradient(to right, red, #580206);
+    }
+
+    .money-heist {
+        height: 15rem;
+        width: 15rem;
+        position: absolute;
+        right: 6rem;
+        top: 202rem; 
+    }
+
+    .stranger-things {
+        height: 15rem;
+        width: 15rem;
+        position: absolute;
+        left: 6rem;
+        top: 202rem;
+    }
+
+    .sex-education {
+        height: 15rem;
+        width: 15rem;
+        position: absolute;
+        left: 28.5rem;
+        top: 202rem;
+        
+        
+     }
+
+     .elite {
+        height: 15rem;
+        width: 15rem;
+        position: absolute;
+        right: 28.5rem;
+        top: 202rem;
+        
+     }
+
+     .money-heist, .stranger-things, .sex-education, .elite {
+        border-radius: 8px;
+        border-style: ridge;
+        padding: 2rem;
+        border-width: 1px;
+        border-color: white;
+     }
+
+     .money-heist:hover {
+        transform:scale(1.1);
+        z-index: -2;
+     }
+
+     .stranger-things:hover {
+        transform:scale(1.1);
+        z-index: -2;
+     }
+
+     .sex-education:hover {
+        transform:scale(1.1);
+        z-index: -2;
+     }
+
+     .elite:hover {
+        transform:scale(1.1);
+        z-index: -2;
+     }

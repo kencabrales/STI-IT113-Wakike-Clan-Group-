@@ -1,0 +1,734 @@
+body {
+  overflow-x: hidden;
+}
+
+.home-background {
+    position: relative;   
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    top: -1rem;
+    right: 1rem;
+    width: 1600px;
+    height: 100%;
+    z-index: -1;
+}
+.content {
+    position: relative;
+    bottom: 48rem;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title-banner {
+   position: absolute;
+   bottom: 20rem;
+   right: -13rem
+   
+
+}
+
+.banner-left {
+  position:absolute;
+  bottom: 1rem;
+  right: 32rem;
+}
+
+.banner-right {
+  position:absolute;
+  bottom: 1rem;
+  left: 20rem;
+}
+
+.clan-header {
+  position: absolute;
+  bottom: 41rem;
+  font-size: 3rem;
+  color: #3f200c;
+  font-family: 'MedievalSharp';
+  right: 41rem;
+    
+}
+
+.bg0 {
+  border-radius: 10rem;
+}
+
+.speech {
+  text-align: center;
+  position: absolute;
+  bottom: 4rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-family: 'MedievalSharp';
+}
+
+/** Buttons Settings **/
+
+/** Button 1 **/
+.button-setting1 {
+  color: #ac7227;
+  background-color: #654d24;
+  background-image: linear-gradient(to right, #200900, #64412b);
+  font-family: 'MedievalSharp';
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 10px;
+
+}
+.button-part1 {
+    text-align: center;
+    position: relative;
+    bottom: 48rem
+}
+
+.button-setting1 {
+    margin: 8px
+}
+
+.button-setting1:hover {
+    transform: scale(1.2);
+}
+
+.button-setting2:hover {
+  transform: scale(1.2);
+}
+
+
+/** Button 2 **/
+
+
+.button-setting2 {
+  color: #ac7227;
+  background-color: #654d24;
+  background-image: linear-gradient(to right, #200900, #64412b);
+  font-family: 'MedievalSharp';
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 10px;
+
+}
+
+
+.button-part2 {
+    text-align: center;
+    position: relative;
+    bottom: 48rem
+}
+
+.button-setting2 {
+    margin: 2px
+}
+
+.button-part2 button:hover {
+    background-color: red;
+}
+
+/** Button Setting End **/
+
+/** PROFILE ONE **/
+.warrior1 {
+  position:absolute;
+  left: 21.6rem;
+  bottom: 28rem;
+  font-family: 'MedievalSharp';
+  background-image: linear-gradient(to right, #200900, #64412b);
+  color: #ac7227;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+.shield1 {
+    position: absolute;
+    left: 11rem;
+    bottom: 8rem;
+}
+
+.bridge1 {
+    position:absolute;
+    left: 20rem;
+    bottom: 5rem;
+    text-decoration: none;
+}
+
+.bridge1 {
+    padding: 5px 25px;
+    font-size: 24px;
+    font-family: 'MedievalSharp';
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #ac7227;
+    background-color: #200900;
+    background-image: linear-gradient(to right, #341504, #592a0c);
+    border-radius: 15px;
+    box-shadow: 0 8px #453115;
+  }
+  
+  .bridge1:hover {
+    transform:scale(1.2);
+  }
+  
+  .allacaden {
+    border-radius: 10rem;
+    height: 14.4rem;
+    width: 15rem;
+    bottom: 12rem;
+    position: absolute;
+    left: 17.2rem;
+  }
+
+/** PROFILE ONE END **/
+
+/** PROFILE TWO **/
+
+  .warrior2 {
+  position:absolute;
+  left: 21.6rem;
+  bottom: 28rem;
+  font-family: 'MedievalSharp';
+  background-image: linear-gradient(to right, #200900, #64412b);
+  color: #ac7227;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
+  border-radius: 10rem;
+
+}
+.shield2 {
+    position: absolute;
+    left: 11rem;
+    top: 0.1rem;
+    z-index: 1;
+}
+
+.bridge2 {
+    position:absolute;
+    left: 20rem;
+    bottom: 5rem;
+    text-decoration: none;
+}
+
+.bridge2 {
+    padding: 5px 25px;
+    font-size: 24px;
+    font-family: 'MedievalSharp';
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #ac7227;
+    background-color: #200900;
+    background-image: linear-gradient(to right, #341504, #592a0c);
+    border-radius: 15px;
+    box-shadow: 0 8px #453115;
+  }
+  
+  .bridge2:hover {
+    transform:scale(1.2);
+  }
+
+  .novilla {
+    border-radius: 10rem;
+    height: 14.4rem;
+    width: 15rem;
+    bottom: 12rem;
+    position: absolute;
+    left: 17.2rem;
+    z-index: 2;
+  }
+
+/** PROFILE THREE **/ 
+.warrior3 {
+  position:absolute;
+  left: 21.6rem;
+  bottom: 28rem;
+  font-family: 'MedievalSharp';
+  background-image: linear-gradient(to right, #200900, #64412b);
+  color: #ac7227;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+
+.bg {
+    position: absolute;
+    height: 31rem;
+    z-index: -1;
+
+}
+.shield3{
+    position: absolute;
+    left: 11rem;
+    top: 0.1rem;
+    z-index: 1;
+}
+
+.bridge3 {
+    position:absolute;
+    left: 20rem;
+    bottom: 5rem;
+    text-decoration: none;
+}
+
+.bridge3 {
+    padding: 5px 25px;
+    font-size: 24px;
+    font-family: 'MedievalSharp';
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #ac7227;
+    background-color: #200900;
+    background-image: linear-gradient(to right, #341504, #592a0c);
+    border-radius: 15px;
+    box-shadow: 0 8px #453115;
+  }
+  
+  .bridge3:hover {
+    transform:scale(1.2);
+  }
+
+  .valconcha {
+    border-radius: 10rem;
+    height: 14.4rem;
+    width: 15rem;
+    bottom: 12rem;
+    position: absolute;
+    left: 17.2rem;
+    z-index: 2;
+  }
+       
+  
+
+/** PROFILE FOUR **/ 
+.warrior4 {
+  position:absolute;
+  left: 21.6rem;
+  bottom: 28rem;
+  font-family: 'MedievalSharp';
+  background-image: linear-gradient(to right, #200900, #64412b);
+  color: #ac7227;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+
+.bg {
+    position: absolute;
+    height: 31rem;
+    z-index: -1;
+
+}
+.shield4{
+    position: absolute;
+    left: 11rem;
+    top: 0.1rem;
+    z-index: 1;
+}
+
+.bridge4 {
+    position:absolute;
+    left: 20rem;
+    bottom: 5rem;
+    text-decoration: none;
+}
+
+.bridge4 {
+    padding: 5px 25px;
+    font-size: 24px;
+    font-family: 'MedievalSharp';
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #ac7227;
+    background-color: #200900;
+    background-image: linear-gradient(to right, #341504, #592a0c);
+    border-radius: 15px;
+    box-shadow: 0 8px #453115;
+  }
+  
+  .bridge4:hover {
+    transform:scale(1.2);
+  }
+
+  .melencio {
+    border-radius: 10rem;
+    height: 14.4rem;
+    width: 15rem;
+    bottom: 12rem;
+    position: absolute;
+    left: 17.2rem;
+    z-index: 2;
+  }
+       
+  
+  /** PROFILE FIVE**/ 
+
+  .warrior5 {
+  position:absolute;
+  left: 22.6rem;
+  bottom: 28rem;
+  font-family: 'MedievalSharp';
+  background-image: linear-gradient(to right, #200900, #64412b);
+  color: #ac7227;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+
+.bg {
+    position: absolute;
+    height: 31rem;
+    z-index: -1;
+
+}
+.shield5{
+    position: absolute;
+    left: 11rem;
+    top: 0.1rem;
+    z-index: 1;
+}
+
+.bridge5 {
+    position:absolute;
+    left: 20rem;
+    bottom: 5rem;
+    text-decoration: none;
+}
+
+.bridge5 {
+    padding: 5px 25px;
+    font-size: 24px;
+    font-family: 'MedievalSharp';
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #ac7227;
+    background-color: #200900;
+    background-image: linear-gradient(to right, #341504, #592a0c);
+    border-radius: 15px;
+    box-shadow: 0 8px #453115;
+  }
+  
+  .bridge5:hover {
+    transform:scale(1.2);
+  }
+
+  .padasas {
+    border-radius: 10rem;
+    height: 14.4rem;
+    width: 15rem;
+    bottom: 12rem;
+    position: absolute;
+    left: 17.2rem;
+    z-index: 2;
+  }
+    
+ /** PROFILE SIX**/ 
+ .warrior6 {
+  position:absolute;
+  left: 21.6rem;
+  bottom: 28rem;
+  font-family: 'MedievalSharp';
+  background-image: linear-gradient(to right, #200900, #64412b);
+  color: #ac7227;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+
+
+.bg {
+    position: absolute;
+    height: 31rem;
+    z-index: -1;
+
+}
+.shield6{
+    position: absolute;
+    left: 11rem;
+    top: 0.1rem;
+    z-index: 1;
+}
+
+.bridge6 {
+    position:absolute;
+    left: 20rem;
+    bottom: 5rem;
+    text-decoration: none;
+}
+
+.bridge6 {
+    padding: 5px 25px;
+    font-size: 24px;
+    font-family: 'MedievalSharp';
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #ac7227;
+    background-color: #200900;
+    background-image: linear-gradient(to right, #341504, #592a0c);
+    border-radius: 15px;
+    box-shadow: 0 8px #453115;
+  }
+  
+  .bridge6:hover {
+    transform:scale(1.2);
+  }
+
+  .abulad {
+    border-radius: 10rem;
+    height: 14.4rem;
+    width: 15rem;
+    bottom: 12rem;
+    position: absolute;
+    left: 17.2rem;
+    z-index: 2;
+  }
+       
+  
+/** PROFILE SEVEN**/ 
+.warrior7 {
+  position:absolute;
+  left: 21.6rem;
+  bottom: 28rem;
+  font-family: 'MedievalSharp';
+  background-image: linear-gradient(to right, #200900, #64412b);
+  color: #ac7227;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+
+.bg {
+    position: absolute;
+    height: 31rem;
+    z-index: -1;
+
+}
+.shield7{
+    position: absolute;
+    left: 11rem;
+    top: 0.1rem;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.bridge7 {
+    position:absolute;
+    left: 20rem;
+    bottom: 5rem
+}
+
+.bridge7 {
+    padding: 5px 25px;
+    font-size: 24px;
+    font-family: 'MedievalSharp';
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #ac7227;
+    background-color: #200900;
+    background-image: linear-gradient(to right, #341504, #592a0c);
+    border-radius: 15px;
+    box-shadow: 0 8px #453115;
+  }
+  
+  .bridge7:hover {
+    transform:scale(1.2);
+  }
+
+  .divina {
+    border-radius: 10rem;
+    height: 14.4rem;
+    width: 15rem;
+    bottom: 12rem;
+    position: absolute;
+    left: 17.2rem;
+    z-index: 2;
+  }
+       
+/** PROFILE EIGHT**/ 
+  .warrior8 {
+  position:absolute;
+  left: 21.6rem;
+  bottom: 28rem;
+  font-family: 'MedievalSharp';
+  background-image: linear-gradient(to right, #200900, #64412b);
+  color: #ac7227;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+
+
+.bg {
+    position: absolute;
+    height: 31rem;
+    z-index: -1;
+
+}
+.shield8{
+    position: absolute;
+    left: 11rem;
+    top: 0.1rem;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.bridge8 {
+    position:absolute;
+    left: 20rem;
+    bottom: 5rem
+}
+
+.bridge8 {
+    padding: 5px 25px;
+    font-size: 24px;
+    font-family: 'MedievalSharp';
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #ac7227;
+    background-color: #200900;
+    background-image: linear-gradient(to right, #341504, #592a0c);
+    border-radius: 15px;
+    box-shadow: 0 8px #453115;
+  }
+  
+  .bridge8:hover {
+    transform:scale(1.2);
+  }
+
+  .mendoza {
+    border-radius: 10rem;
+    height: 14.4rem;
+    width: 15rem;
+    bottom: 12rem;
+    position: absolute;
+    left: 17.2rem;
+    z-index: 2;
+  }
+       
+/** PROFILE NINE THE KING**/
+  .warrior9 {
+  position:absolute;
+  left: 21.6rem;
+  bottom: 28rem;
+  font-family: 'MedievalSharp';
+  background-image: linear-gradient(to right, #200900, #64412b);
+  color: #ac7227;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+
+
+.bg {
+    position: absolute;
+    height: 31rem;
+    z-index: -1;
+
+}
+.shield9{
+    position: absolute;
+    left: 11rem;
+    top: 0.1rem;
+    z-index: 1;
+}
+
+.bridge9 {
+    position:absolute;
+    left: 20rem;
+    bottom: 5rem;
+    text-decoration: none;
+}
+
+.bridge9 {
+    padding: 5px 25px;
+    font-size: 24px;
+    font-family: 'MedievalSharp';
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #ac7227;
+    background-color: #200900;
+    background-image: linear-gradient(to right, #341504, #592a0c);
+    border-radius: 15px;
+    box-shadow: 0 8px #453115;
+  }
+  
+  .bridge9:hover {
+    transform:scale(1.2);
+  }
+
+  .cabrales {
+    border-radius: 10rem;
+    height: 14.4rem;
+    width: 15rem;
+    bottom: 12rem;
+    position: absolute;
+    left: 17.2rem;
+    z-index: 2;
+  }
+       
+  
+  
+      
+  
+      
+     
+  
+  
+      
+      
+  
+  
+      
+  
+      
+     
+  
+  
+      
+      

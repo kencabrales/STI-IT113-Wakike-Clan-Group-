@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+  *{
+    scroll-behavior: smooth;
+  }
+body{
+ height: 2500px;
+ margin:0;
+ overflow-x: hidden;
+}
+#homepage{
+  width: 100%;
+  height:900px;
+  background-color: #ffc300;
+}
+#khufra{
+  position: absolute;
+  top:200px;
+  left:600px;
+  height:600px;
+  width:750px;
+  z-index:1;
+}
+#home-text-container{
+  background-color:#ff5732;
+  height:600px;
+  width:500px;
+  position: absolute;
+  top:200px;
+  left:105px;
+}
+#border-in-home-text{
+  background-color:transparent;
+  height:500px;
+  width:400px;
+  position: absolute;
+  top:50px;
+  left:45px;
+  border-style: solid;
+  border-width:0 0 10px 10px;
+  border-color:white;
+}
+#quote{
+  position: absolute;
+  width:1200px;
+  height:100px;
+  background-color: #ff5732;
+  top:50px;
+  left:105px;
+}
+  #quote > h1{
+    font-family: Bookman Old Style;
+    position: absolute;
+    top:10px;
+    left:30px;
+    color:white;
+  }
+
+#p1{
+  font-family: Century Gothic;
+  font-size: 20px;
+  text-align:justify;
+  width: 300px;
+  color:white;
+  position: absolute;
+  top:50px;
+  left:70px;
+}
+#p2{
+  font-family: Century Gothic;
+  font-size: 20px;
+  text-align:justify;
+  width: 300px;
+  color:white;
+  position: absolute;
+  top:160px;
+  left:70px;
+}
+#Aboutme{
+  padding:20px 30px 20px 30px;
+  background-color:#561744;
+  font-family: Century Gothic;
+  text-decoration: none;
+  position: absolute;
+  top:275px;
+  left:180px;
+  font-size:20px;
+  color:white;
+  transition: all 0.2s ease;
+}
+#Aboutme:hover{
+  filter: brightness(130%);
+}
+#Favorites{
+  padding:20px 36.4px 20px 36.4px;
+  background-color:#8f083d;
+  font-family: Century Gothic;
+  text-decoration: none;
+  position: absolute;
+  top:339.8px;
+  left:180px;
+  font-size:20px;
+  color:white;
+  transition: all 0.2s ease;
+}
+#Favorites:hover{
+  filter: brightness(130%);
+}
+#Funfacts{
+  padding:20px 38.2px 20px 38.2px;
+  background-color:#c40034;
+  font-family: Century Gothic;
+  text-decoration: none;
+  position: absolute;
+  top:404px;
+  left:180px;
+  font-size:20px;
+  color:white;
+  transition: all 0.2s ease;
+}
+#Funfacts:hover{
+  filter: brightness(130%);
+
+}
+#nd-bg{
+  width:100%;
+  height:775px;
+  position: absolute;
+  top:900px;
+  left:0;
+  background-color: #c50035;
+}
+#likes-title{
+   font-family: Bookman Old Style;
+   color:white;
+   position: absolute;
+   z-index : 5;
+   top:900px;
+   left:105px;
+   font-size:55px;
+}
+.likes-container{
+   background-color:transparent;
+   position: absolute;
+   top:1030px;
+   width:520px;
+   height:300px;
+   left:105px;
+   border-width: 10px;
+   border-color:white;
+   border-style:solid;
+
+}
+#likes-text{
+   color:white;
+   font-family: Century Gothic;
+   font-size: 20px;
+   width:400px;
+   text-align: justify;
+   position: absolute;
+   top:25px;
+   left:20px;
+}
+#dislikes-text{
+   color:white;
+   font-family: Century Gothic;
+   font-size: 20px;
+   width:400px;
+   text-align: justify;
+   position: absolute;
+   top:150px;
+   left:20px;
+}
+#sports-title{
+  font-family: Bookman Old Style;
+  color:white;
+  position: absolute;
+  z-index : 7;
+  top:1330px;
+  left:105px;
+  font-size:55px;
+}
+.sports-container{
+  background-color:transparent;
+  position: absolute;
+  top:1470px;
+  width:520px;
+  height:100px;
+  left:105px;
+  border-width: 10px;
+  border-color:white;
+  border-style:solid;
+}
+#sports-text{
+  color:white;
+  font-family: Century Gothic;
+  font-size: 20px;
+  width:400px;
+  text-align: justify;
+  position: absolute;
+  top:20px;
+  left:20px;
+}
+#padatat{
+  z-index: 8;
+  position: absolute;
+  top:1030px;
+  left:800px;
+  width:500px;
+  height:565px;
+}
+#favorites-bg{
+  background-color: #c70038;
+  position: absolute;
+  top:1675px;
+  height:600px;
+  width:100%;
+}
+#homa{
+  font-family: Bookman Old Style;
+  color:white;
+  position: absolute;
+  z-index : 7;
+  top:30px;
+  left:105px;
+  font-size:55px;
+}
+#favorites-container{
+  background-color:transparent;
+  position: absolute;
+  top:180px;
+  width:520px;
+  height:300px;
+  left:105px;
+  border-width: 10px;
+  border-color:white;
+  border-style:solid;
+}
+#favorites-text{
+  color:white;
+  font-family: Century Gothic;
+  font-size: 20px;
+  width:400px;
+  text-align: justify;
+  position: absolute;
+  top:20px;
+  left:20px;
+}
+#favorites-text2{
+  color:white;
+  font-family: Century Gothic;
+  font-size: 20px;
+  width:400px;
+  text-align: justify;
+  position: absolute;
+  top:140px;
+  left:20px;
+}
+#cover1{
+  background-color:white;
+  width:500px;
+  height:200px;
+  position: absolute;
+  top:2080px;
+  left:950px;
+}
+#cover2{
+  background-color: white;
+  width:200px;
+  height:300px;
+  position: absolute;
+  top:2106.4px;
+  left:814px;
+  transform: rotate(45deg);
+}
+#funfacts-bg{
+  background-color: #561744;
+  position: absolute;
+  top:2300px;
+  height:200px;
+  width:100%;
+}
+#funny{
+  color:white;
+  font-size:30px;
+  font-family: Bookman Old Style;
+  position: absolute;
+  left:105px;
+}
+#funny-p{
+  color:white;
+  font-size: 20px;
+  font-family: Century Gothic;
+  position: absolute;
+  left:105px;
+  top:70px;
+}
+  </style>
+
+  <title>About Padasas</title>
+</head>
+
+<body>
+
+  <div id="homepage">
+    <img id="khufra" src="khufra.png">
+    <div id="home-text-container">
+      <p id="p1">Hello, my name is Mark James Padasas and today I will show you my beautiful webpage.</p>
+      <p id="p2">This webpage consists of sections about myself. Enjoy the tour!</p>
+      <div id="border-in-home-text"></div>
+      <a id="Aboutme" href="#nd-bg">About me</a>
+      <a id="Favorites" href="#favorites-bg">Favorites</a>
+      <a id="Funfacts" href="#funfacts-bg">Funfacts</a>
+    </div>
+    <div id="quote">
+      <h1>“Make the right thing to do the easy thing to do”- Jason Lengstorf</h1>
+    </div>
+          </div>
+          <img id="nd-bg" src="khufra-new.jpg">
+          <h2 id="likes-title">Likes and Dislikes</h2>
+          <div class="likes-container">
+          <p id="likes-text">For me what I like is kind people, kind people who don't say harsh words and knows how to treat people. </p>
+          <p id="dislikes-text">What I dislike is bad people who will ruin my life because I think I will regret it in present and in the future.</p>
+        </div>
+        <h2 id="sports-title">Sports</h2>
+        <div class="sports-container">
+        <p id="sports-text">One of the sports that I like is Basketball.</p>
+        </div>
+        <img id="padatat" src="padatat.png">
+        <div id="favorites-bg">
+          <h2 id="homa">Favorite Hobbies and Others</h2>
+          <div id="favorites-container">
+            <p id="favorites-text">My favorite hobbies are playing online games and playing basketball because it lets my stress go away.</p>
+            <p id="favorites-text2">The other things that were my favorite too are music and watching movies.</p>
+          </div>
+        </div>
+        <div id="cover1"></div>
+        <div id="cover2"></div>
+        <div id="funfacts-bg">
+          <h3 id="funny">Funfacts:</h3>
+          <p id="funny-p">I can tell stories in social media but when in person, I'm quiet and stunned and also another funfact is I am proud of my project in Computer Programming 1&2.</p>
+        </div>
+
+
+</body>
+
+</html>

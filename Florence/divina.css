@@ -1,0 +1,293 @@
+body {
+  overflow-x: hidden;
+  height: 110rem;
+  background-color: purple;
+  background-image: linear-gradient(rgb(73, 1, 73), rgb(117, 32, 117));
+  
+}
+
+/** Header Start **/
+
+.frivlogo {
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  position: relative;
+  bottom: 10rem;
+}
+
+.sportlist img{
+  align-items: center;
+  position: relative;
+  width: 340px;
+  height: 110px;
+  border-radius: 1.5rem
+}
+
+.sportlist img:hover {
+  transform:scale(1.1);
+  border-style: ridge;
+  padding: 8px;
+  border-width: 1px;
+  border-radius: 1.5rem
+}
+
+.favorite {
+  font-family: cursive;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-shadow: 4px 3px black;
+  color: #00cc02;
+  width: 350px;
+  background-image: linear-gradient(to right, purple, magenta);
+  border-radius: 1.5rem;
+  position: absolute;
+  top: 22rem;
+  left: 37rem;
+ 
+}
+
+/** Row 1**/
+
+.tennis {
+  position: absolute;
+  bottom: 14rem;
+  left: 3rem;
+
+}
+
+.volleyball {
+  position: absolute;
+  bottom: 14rem;
+  left: 5rem
+}
+
+.football {
+  position: absolute;
+  bottom: 14rem;
+  left: 7rem
+}
+
+
+.basketball {
+  position: absolute;
+  bottom: 14rem;
+  left: 9rem
+}
+
+/** Row 2 **/
+
+.badminton {
+  position: absolute;
+  bottom: 12rem;
+  left: 3rem;
+}
+
+.baseball {
+  position: absolute;
+  bottom: 12rem;
+  left: 5rem;
+}
+
+.boxing {
+  position: absolute;
+  bottom: 12rem;
+  left: 7rem
+}
+
+.bowling {
+  position: absolute;
+  bottom: 12rem;
+  left: 9rem
+}
+
+/** Row 3 **/
+
+.rugby {
+  position: absolute;
+  bottom: 10rem;
+  left: 3rem;
+}
+
+.hockey {
+  position: absolute;
+  bottom: 10rem;
+  left: 5rem;
+}
+
+.golf {
+  position: absolute;
+  bottom: 10rem;
+  left: 7rem
+}
+
+.table-tennis {
+  position: absolute;
+  bottom: 10rem;
+  left: 9rem
+}
+
+/** Row End **/
+
+/** Sports End **/
+
+/** Introduction Start **/
+
+.introduction-header {
+  font-family: cursive;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bolder;
+  text-shadow: 4px 3px black;
+  color: #00cc02;
+  width: 400px;
+  background-image: linear-gradient(to right, purple, magenta);
+  border-radius: 1.5rem;
+  position: absolute;
+  top: 64.5rem;
+  left: 37rem;
+}
+
+.introduction-text {
+  font-family: cursive;
+  text-align:center;
+  align-items: center;
+  font-size: 1.4rem;
+  text-shadow: 4px 3px black;
+  color: #00cc02;
+  position: absolute;
+  top: 70rem;
+  left: 27rem;
+  line-height: 60px;
+}
+
+.purp{
+  height: 32rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 5rem;
+  position: relative;
+  border-radius: 4rem;
+  z-index: -1;
+  border-style: ridge;
+  padding: 15px;
+  border-width: 2px;
+  border-color: #0b0235;
+}
+
+.boardgame-part1 {
+  height: 35rem;
+  position:absolute;
+  top: 68rem;
+  left: 2rem;
+  border-radius: 2rem;
+  border-style: ridge;
+  border-width: 2px;
+  padding: 10px;
+  border-color: #0b0235;
+}
+
+.boardgame-part2 {
+  height: 35rem;
+  position:absolute;
+  top: 68rem;
+  right: 3rem;
+  border-radius: 2rem;
+  border-style: ridge;
+  border-width: 2px;
+  padding: 10px;
+  border-color: #0b0235;
+}
+
+.boardgame-hover img:hover {
+  transform:scale(1.1);
+  border-style: ridge;
+  padding: 8px;
+  border-width: 1px;
+  border-radius: 1.5rem
+}
+
+/** About me Start **/
+
+.abstract {
+  width: 45rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 24rem;
+  position: relative;
+  border-radius: 4rem;
+  z-index: -1;
+  border-style: ridge;
+  padding: 15px;
+  border-width: 2px;
+  border-color: #0b0235;
+}
+
+.aboutme-header {
+  font-family: cursive;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bolder;
+  text-shadow: 4px 3px black;
+  color: #00cc02;
+  width: 400px;
+  background-image: linear-gradient(to right, purple, magenta);
+  border-radius: 1.5rem;
+  position: absolute;
+  top: 114rem;
+  left: 37rem;
+  z-index: -2;
+
+}
+
+.bubbles {
+  height: 35rem;
+  position:absolute;
+  top: 125rem;
+  left: 2rem;
+  border-radius: 2rem;
+  border-style: ridge;
+  border-width: 2px;
+  padding: 10px;
+  border-color: #0b0235;
+}
+
+.jellyfish {
+  width: 18rem;
+  height: 35rem;
+  position:absolute;
+  top: 125rem;
+  right: 3rem;
+  border-radius: 2rem;
+  border-style: ridge;
+  border-width: 2px;
+  padding: 10px;
+  border-color: #0b0235;
+}
+
+.aboutme-hover img:hover {
+  transform:scale(1.1);
+  border-style: ridge;
+  padding: 8px;
+  border-width: 1px;
+  border-radius: 1.5rem
+}
+
+.aboutme-text {
+  font-family: cursive;
+  text-align:center;
+  align-items: center;
+  font-size: 1.5rem;
+  text-shadow: 4px 3px black;
+  color: #00cc02;
+  position: absolute;
+  top: 128rem;
+  left: 33rem;
+  line-height: 60px;
+
+}

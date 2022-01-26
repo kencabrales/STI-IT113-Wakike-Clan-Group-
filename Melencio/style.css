@@ -1,0 +1,425 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0c0804;
+  font-family: 'Raleway',sans-serif;
+}
+.home{
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(KapengMatapang.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #6f4e37;
+  background-repeat: no-repeat;
+}
+.container{
+  max-width: 1300px;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  font-size: 35px;
+  color: #fff;
+}
+.navbar-menu a{
+  color: #fff;
+  font-size: 13px;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 100;
+  padding: 12px 15px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.navbar-menu a:hover{
+  background-color: #fff;
+  color: #000;
+}
+.description{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  padding: 0 70px;
+  width: 100%;
+  text-align: center;
+}
+.description h2{
+  font-size: 30px;
+  font-family: 'Great Vibes',sans-serif;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+.description h1{
+  font-size: 35px;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 70px;
+}
+.description p{
+  font-size: 14px;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.description button{
+  font-size: 14px;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 12px 20px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.description button:hover{
+  background: #fff;
+  color: #000;
+}
+
+
+.aboutme {
+  font-family: 'Raleway',sans-serif;
+  position: relative;
+  text-align: center;
+  bottom: -5.7rem;
+  background-color: #331900;
+  left: 1rem;
+  margin-left: 20rem;
+  margin-right: 11rem;
+  color: #eab47f;
+
+}
+
+.cup img {
+  position: relative;
+  height: 20%;
+  width: 20%;
+  left: 9rem;
+  top: -24rem
+
+}
+
+.aboutme h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.text {
+
+margin-left: 9rem;
+font-size: 18px;
+
+}
+
+.aboutme {
+  font-size: 2rem;
+  font-weight: lighter;
+  line-height: 1.8;
+  padding: 1rem 0;
+  padding-bottom: 19.1rem;
+}
+
+.Netflix img{
+  height: 18rem;
+  width: 18rem;
+  border-radius: 2rem;
+  position: relative;
+ }
+
+
+
+
+ .img1 {
+  position: relative;
+  top: -17rem;
+  margin-right: 5rem;
+  margin-left: 6rem;
+  border: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 5rem;
+  transition: 200ms ease;
+
+  }
+
+  .img1:hover{
+    transform: scale(1.1);
+
+  }
+
+
+
+  .img2 {
+  position: relative;
+  top: -17rem;
+  margin-right: 5rem;
+  border: 1px solid gray;
+  padding: 10px;
+   margin-bottom: 5rem;
+   transition: 200ms ease;
+
+  }
+
+  .img2:hover{
+    transform: scale(1.1);
+
+  }
+
+  .img3 {
+  position: relative;
+  top: -17rem;
+  margin-right: 5rem;
+  border: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 5rem;
+  transition: 200ms ease;
+
+  }
+  .img3:hover{
+    transform: scale(1.1);
+
+  }
+
+  .img4 {
+  position: relative;
+  top: -17rem;
+  margin-right: 5rem;
+  border: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 5rem;
+  transition: 200ms ease;
+
+  }
+  .img4:hover{
+    transform: scale(1.1);
+
+  }
+
+.img5 {
+    position: relative;
+    top: -17rem;
+    margin-right: 5rem;
+    margin-left: 6rem;
+  border: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 5rem;
+  transition: 200ms ease;
+
+    }
+    .img5:hover{
+      transform: scale(1.1);
+
+    }
+
+    .img6 {
+    position: relative;
+    top: -17rem;
+    margin-right: 5rem;
+  border: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 5rem;
+  transition: 200ms ease;
+
+    }
+    .img6:hover{
+      transform: scale(1.1);
+
+    }
+
+    .img7 {
+    position: relative;
+    top: -17rem;
+    margin-right: 5rem;
+  border: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 5rem;
+  transition: 200ms ease;
+
+
+    }
+    .img7:hover{
+      transform: scale(1.1);
+
+    }
+
+    .img8 {
+    position: relative;
+    top: -17rem;
+    margin-right: 5rem;
+  border: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 5rem;
+  transition: 200ms ease;
+
+    }
+    .img8:hover{
+      transform: scale(1.1);
+
+    }
+
+    img:hover {
+      background-color: darkred;
+
+    }
+
+    .hobbies {
+      color: #fff;
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      position: relative;
+      top: -20rem;
+      text-decoration: underline;
+    }
+
+    .kdramalist {
+      color:#fff;
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      position: relative;
+      top: -15rem;
+      background-image: linear-gradient(to right, #331900, #7d5229, #f6d052);
+      width:500px;
+      left:540px;
+      padding:10px;
+      border:2px;
+      border-style: solid;
+      border-color:white;
+    }
+
+  .movie1 {
+      position: relative;
+      top: -3rem;
+      margin-right: 5rem;
+      margin-left: 6rem;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 10rem;
+  transition: 200ms ease;
+      }
+      .movie1:hover{
+        transform: scale(1.1);
+
+      }
+
+
+      .movie2 {
+      position: relative;
+      top: -8rem;
+      margin-right: 5rem;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 5rem;
+      transition: 200ms ease;
+
+      }
+      .movie2:hover{
+        transform: scale(1.1);
+
+      }
+
+
+      .movie3 {
+      position: relative;
+      top: -8rem;
+      margin-right: 5rem;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 5rem;
+      transition: 200ms ease;
+
+
+      }
+      .movie3:hover{
+        transform: scale(1.1);
+
+      }
+
+
+      .movie4 {
+      position: relative;
+      top: -8rem;
+      margin-right: 5rem;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 5rem;
+      transition: 200ms ease;
+      }
+      .movie4:hover{
+        transform: scale(1.1);
+
+      }
+
+
+      .movielist  {
+        color:#fff;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        position: relative;
+        top: 42rem;
+        background-image: linear-gradient(to right, #331900, #7d5229, #f6d052);
+        width:500px;
+        left:540px;
+        padding:10px;
+        border:2px;
+        border-style: solid;
+        border-color:white;
+
+      }
+
+      .sport {
+        color:#fff;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        position: relative;
+        top: 70rem;
+        background-image: linear-gradient(to right, #331900, #7d5229, #f6d052);
+        width:500px;
+        left:540px;
+        padding:10px;
+        border:2px;
+        border-style: solid;
+        border-color:white;
+
+      }
+
+      .sportlist {
+        text-align: center;
+        top: 60rem;
+
+      }
+
+      .volleyball {
+        color:#fff;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        position: relative;
+        top: 95rem;
+      }
