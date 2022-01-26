@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+      @import url('http://fonts.cdnfonts.com/css/valorant');
+      @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+      html{
+        scroll-behavior:smooth;
+     }
+      body {
+        margin:0;
+        height:3000px;
+        background-color:#ece8e1;
+        overflow-x: hidden;
+      }
+      nav{
+        position:fixed;
+        width:100%;
+        height:80px;
+        background-color:#111111;
+        z-index:100;
+      }
+      #luisface{
+        border-radius:50%;
+        transform: scale(0.15);
+        position:absolute;
+        top:-146px;
+        left:-145px;
+        border-style: solid;
+        border-width:10px;
+        border-color:white;
+      }
+      #name{
+        font-family: 'VALORANT', sans-serif;
+        color:white;
+        position:absolute;
+        left:100px;
+        top:10px;
+        font-size:20px;
+      }
+      #radiant{
+        transform: scale(0.11);
+        position: absolute;
+        top:-89px;
+        left:30px;
+      }
+      .nava{
+        color:white;
+        margin:20px;
+        position:relative;
+        left:200px;
+        top:31px;
+        font-size:14px;
+        font-family: 'VALORANT', sans-serif;
+        text-decoration:none;
+        padding:10px 20px 10px 20px;
+        border-radius:10px;
+      }
+      .nava:hover{
+        background-color:#333333;
+        border-bottom: 3px solid #fa4454;
+      }
+      #redbg{
+        background-color: #fa4454;
+        width:896.5px;
+        height:587px;
+      }
+      #line1{
+        background-color:transparent;
+        position:absolute;
+        border-style:solid;
+        border-width: 1px 0 0 0;
+        border-color:#ece8e1;
+        width:794px;
+        height:100px;
+        top:130px;
+        left:103px;
+      }
+      #line2{
+        background-color:transparent;
+        position:absolute;
+        border-style:solid;
+        border-width: 1px 0 0 1px;
+        border-color:#ece8e1;
+        width:70px;
+        height:100px;
+        top:522px;
+        left:103px;
+      }
+      #line3{
+        background-color:transparent;
+        position:absolute;
+        border-style:solid;
+        border-width: 1px 0 0 0;
+        border-color:#ece8e1;
+        width:600px;
+        height:500px;
+        top:522px;
+        left:300px;
+      }
+     #dotgrey1{
+       position:relative;
+       background-color:#939d95;
+       left:0;
+       top:105px;
+       width:4px;
+       height:4px;
+     }
+     #dotgrey2{
+       position:relative;
+       background-color:#ece8e1;
+       left:0;
+       top:355px;
+       width:4px;
+       height:4px;
+     }
+     #vanitas{
+       position:absolute;
+       top:177px;
+       left:550px;
+       transform: scaleY(1.05);
+     }
+     #squaregif1{
+       width:50px;
+       height:50px;
+       background-color: #fa4454;
+       position: absolute;
+       top:165px;
+       left:550px;
+     }
+     #squaregif2{
+       width:100px;
+       height:100px;
+       background-color:#ece8e1;
+       position: absolute;
+       top:608px;
+       left:500px;
+       transform: rotate(45deg);
+     }
+     #titleredbg{
+       font-size:40px;
+       font-family: 'Anton', sans-serif;
+       position: absolute;
+       top:100px;
+       left:105px;
+       font-weight: none;
+       color:#ece8e1;
+       letter-spacing: 2px;
+     }
+     .introd{
+       width: 350px;
+       height: 300px;
+       position: absolute;
+       font-family: Arial;
+       text-align: justify;
+       top:290px;
+       color:#ece8e1;
+       left:105px;
+     }
+     .introd >p{
+       padding-bottom:1.25rem;
+       font-size: 20px;
+     }
+     #sora{
+      font-family: 'Anton', sans-serif;
+       position: absolute;
+       top:695px;
+       left:105px;
+       color:#fa4454;
+       animation: laul 2s infinite;
+       animation-direction: alternate;
+       z-index:25;
+     }
+     @keyframes laul{
+       from{color:#0f1923;}
+       to{color: #fa4454;}
+     }
+     #linear1{
+       position:absolute;
+       background-color:transparent;
+       top:700px;
+       width:1025px;
+       height:33px;
+       left:80px;
+       border-style:solid;
+       border-width:1px 1px 0 1px;
+       border-color:#8b9792;
+     }
+     #linear2{
+       position:absolute;
+       background-color:transparent;
+       top:743px;
+       width:1025px;
+       height:37px;
+       left:80px;
+       border-style:solid;
+       border-width:0 1px 1px 1px;
+       border-color:#8b9792;
+
+     }
+     #squaricdes{
+       position: absolute;
+       height:80px;
+       width:80px;
+       background-color:transparent;
+       top:700px;
+       left:1175px;
+       border-style:solid;
+       border-width:1px;
+       border-color:#8b9792;
+     }
+     #anothdiv1{
+       height:80px;
+       width:80px;
+       position: absolute;
+       background-color:transparent;
+       transform: rotate(45deg);
+       top:29px;
+       left:29px;
+       border-style:solid;
+       border-width:0 0 0 1px;
+       border-color:#8b9792;
+     }
+     #Opacitybg{
+       width:100%;
+       height:600px;
+       position: absolute;
+       background-color: #fa4454;
+       top:860px;
+
+}
+     #titlelikes{
+       font-size:68px;
+       font-family: 'Anton', sans-serif;
+       color:#ece8e1;
+       position: absolute;
+       left:105px;
+       top:20px;
+     }
+     #line4{
+       width:800px;
+       height:100px;
+       border-style: solid;
+       border-width:0 1px 1px 0;
+       border-color: #ece8e1;
+       background-color:transparent;
+       position: absolute;
+       top: 813px;
+       left: 103px;
+     }
+     #line5{
+       width:1400px;
+       height:100px;
+       border-style: solid;
+       border-width:1px 0 0 1px;
+       border-color: #ece8e1;
+       background-color:transparent;
+       position: absolute;
+       top: 1370px;
+       left: 103px;
+     }
+     #textlikey{
+       position: absolute;
+       padding-bottom:1.25rem;
+       font-size: 20px;
+       color:#ece8e1;
+       left:105px;
+       top:200px;
+       width: 450px;
+       height: 300px;
+       font-family: Arial;
+       text-align: justify;
+     }
+     #textdislikey{
+       position: absolute;
+       padding-bottom:1.25rem;
+       font-size: 20px;
+       color:#ece8e1;
+       left:105px;
+       width: 450px;
+       height: 300px;
+       font-family: Arial;
+       text-align: justify;
+       top:290px;
+     }
+
+    #yes{
+      position:absolute;
+      top:1100px;
+      left:760px;
+      transform: scale(1.2);
+      left:650px;
+    }
+    #squaregif3{
+      position: absolute;
+      background-color: #fA4454;
+      top:1063.7px;
+      left:586.3px;
+      width:50px;
+      height:50px;
+
+    }
+
+    #obstruct1{
+      background-color: #fA4454;
+      width:1000px;
+      height:200px;
+      position:absolute;
+      top:1400px;
+      left:600px;
+      z-index:-1;
+    }
+    #obstruct2{
+      background-color: #fA4454;
+      width:300px;
+      height:200px;
+      position:absolute;
+      top:1323.6px;
+      left:415px;
+      z-index:-1;
+      transform: rotate(45deg);
+    }
+    #line6{
+      position: absolute;
+      background: transparent;
+      width:900px;
+      height:100px;
+      top:1450px;
+      left:700px;
+      border-style: solid;
+      border-width: 0 0 1px 1px;
+      border-color: #ece8e1;
+      z-index: -1;
+    }
+    #obstruct3{
+      background-color:#fA4454;
+      position: absolute;
+      width:70px;
+      height:140px;
+      top:1400px;
+      left:1300px;
+      transform:rotate(45deg);
+
+    }
+    #squaregif4{
+      background-color: #fA4454;
+      position:absolute;
+      width:200px;
+      height:50px;
+      top:1530px;
+      left:850px;
+    }
+    #container-ascent{
+      height:500px;
+      width:1000px;
+      position: absolute;
+      top:2000px;
+      left:500px;
+    }
+    #ascent-bg{
+      position: absolute;
+      transform: scaleY(0.6);
+      top:-525px;
+      left:-700px;
+      filter: blur(8px);
+    }
+    #peborit{
+      font-size:68px;
+      font-family: 'Anton', sans-serif;
+      position: absolute;
+      color:#ece8e1;
+      letter-spacing: 2px;
+      left:105px;
+      top:1800px;
+    }
+    #sports1{
+      position: absolute;
+      font-family: 'Anton', sans-serif;
+      color:#fA4454;
+      font-size:40px;
+      top:1950px;
+      left:105px;
+    }
+    #hobbies1{
+      position: absolute;
+      font-family: 'Anton', sans-serif;
+      color:#fA4454;
+      font-size:40px;
+      left:105px;
+      top:2300px;
+    }
+    #others{
+      position: absolute;
+      font-family: 'Anton', sans-serif;
+      color:#fA4454;
+      font-size:40px;
+      top:1950px;
+      left:775px;
+    }
+    .sports-container{
+      position: absolute;
+      width: 500px;
+      height:250px;
+      background-color:transparent;
+      top:2070px;
+      left:105px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #ece8e1;
+
+    }
+    .hobbies-container{
+      position: absolute;
+      width: 500px;
+      height:250px;
+      background-color: transparent;
+      left:105px;
+      top:2420px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #ece8e1;
+    }
+    .others-container{
+      position: absolute;
+      width:500px;
+      height:250px;
+      background-color: transparent;
+      left:775px;
+      top:2070px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #ece8e1;
+    }
+    #sports-parag{
+      font-family:arial;
+      text-align: justify;
+      color: #fA4454;
+      width:360px;
+      font-size:20px;
+      position: absolute;
+      left:20px;
+      top:30px;
+    }
+    #hobbies-parag{
+      font-family:arial;
+      text-align: justify;
+      color:#fA4454;
+      width:300px;
+      font-size: 20px;
+      position: absolute;
+      left:20px;
+      top:30px;
+
+    }
+    #others-parag{
+      font-family:arial;
+      text-align: justify;
+      color: #fA4454;
+      width:300px;
+      font-size:20px;
+      position: absolute;
+      left:20px;
+      top:30px;
+    }
+    #valorant{
+      height:100px;
+      width:100px;
+      position:absolute;
+      left:350px;
+      top:120px;
+      border-radius: 5px;
+      transition: all 0.5s ease;
+    }
+    #valorant:hover{
+      height:100px;
+      width:100px;
+      position:absolute;
+      left:350px;
+      top:120px;
+      border-radius: 5px;
+      transform: scale(1.1);
+    }
+    #chess{
+      height:100px;
+      width:120px;
+      position:absolute;
+      left:340px;
+      top:120px;
+      border-radius: 5px;
+      transition: all 0.5s ease;
+    }
+    #chess:hover{
+      height:100px;
+      width:120px;
+      position:absolute;
+      left:340px;
+      top:120px;
+      border-radius: 5px;
+      transform: scale(1.1);
+    }
+    #anime{
+      height:100px;
+      width:100px;
+      position:absolute;
+      left:350px;
+      top:120px;
+      border-radius: 5px;
+      transition: all 0.5s ease;
+    }
+    #anime:hover{
+      height:100px;
+      width:100px;
+      position:absolute;
+      left:350px;
+      top:120px;
+      border-radius: 5px;
+      transform: scale(1.1);
+    }
+   #cover1{
+     position: absolute;
+     background-color: #ece8e1;
+     width:1600px;
+     height: 50px;
+     top:2750px;
+   }
+   #cover2{
+     position: absolute;
+     background-color: #ece8e1;
+     width:600px;
+     height: 300px;
+     top:2600px;
+     left:1020px;
+     transform: rotate(-45deg);
+   }
+   #cover3{
+     position: absolute;
+     background-color: #ece8e1;
+     width:1600px;
+     height: 50px;
+     top:1750px;
+   }
+   #funfact-container{
+     background-color: #111111;
+     width:100%;
+     height:200px;
+     position:absolute;
+     top:2900px;
+   }
+   .fa {
+     padding: 5px;
+     font-size: 30px;
+     width: 50px;
+     text-align: center;
+     text-decoration: none;
+     margin: 10px;
+     position: relative;
+     left:605px;
+     top:100px;
+     transition: all 0.5s ease;
+}
+  .fa-facebook {
+     background: #3B5998;
+     color: white;
+     border-radius: 10px;
+}
+.fa-facebook:hover {
+   background: #3B5998;
+   color: white;
+   border-radius: 10px;
+   transform: scale(0.8);
+}
+  .fa-twitter {
+     background: #55ACEE;
+     color: white;
+     border-radius: 10px;
+}
+.fa-twitter:hover {
+   background: #55ACEE;
+   color: white;
+   border-radius: 10px;
+   transform: scale(0.8);
+}
+  .fa-google {
+     background: #dd4b39;
+     color: white;
+     border-radius: 10px;
+}
+.fa-google:hover {
+   background: #dd4b39;
+   color: white;
+   border-radius: 10px;
+   transform: scale(0.8);
+}
+   #fun {
+     font-size: 20px;
+     position: absolute;
+     color: #ece8e1;
+     font-family: arial;
+     left:345px;
+     top:40px;
+   }
+   #up1{
+     position: absolute;
+     width:200px;
+     height:200px;
+     background-color:transparent;
+     left:105px;
+     top:1530px;
+     border-width: 1px;
+     border-style:solid;
+     border-color:#939d95;
+   }
+   #low1{
+     position: absolute;
+     width:200px;
+     height:200px;
+     background-color:transparent;
+     left:105px;
+     top:1530px;
+     border-width: 1px;
+     border-style:solid;
+     border-color:#939d95;
+     transform: rotate(45deg);
+   }
+   #squaregif5{
+     position: absolute;
+     width:900px;
+     height:50px;
+     background-color:transparent;
+     left:500px;
+     top:1660px;
+     border-width: 1px 1px 0 0;
+     border-style:solid;
+     border-color:#939d95;
+   }
+   #linear3{
+     position: absolute;
+     width:4px;
+     height:4px;
+     background-color:#939d95;
+     top:-0.8px;
+
+   }
+    </style>
+
+
+    <title>About Luis Adrian</title>
+  </head>
+
+  <body>
+     <nav id="yawo">
+       <img id="luisface" src="luis.png">
+       <p id="name" >Luis</p>
+       <a id="Home" class="nava" href="#redbg">HOME</a>
+       <a id="About" class="nava" href="#Opacitybg">ABOUT</a>
+       <a id="Favorites" class="nava" href="#ascent-bg">FAVORITES</a>
+       <img id="radiant" src="radiantlogo.png">
+       </nav>
+       <div id="redbg">
+         <div id="titleredbg">
+           <h1>
+           NOVILA
+           <h1>
+         </div>
+         </div>
+         <div id="line1">
+           <div id="dotgrey2">
+             </div>
+           </div>
+           <div id="line2">
+             <div id="dotgrey1">
+               </div>
+             </div>
+             <div id="line3">
+               </div>
+              <img id="vanitas" src="vanitas.gif">
+              <div id="squaregif1">
+              </div>
+              <div id="squaregif2">
+              </div>
+              <div class="introd">
+              <p>Hi, my name is Luis Adrian P. Novila and I would like to introduce to you my own webpage and about me</p>
+              <p>This webpage is inspired from Valorant.
+            </div>
+            <div id="sora">
+              <h1>“Life is not a game of luck, If you wanna win, work hard.” - Sora</h1>
+            </div>
+            <div id="linear1"></div>
+            <div id="linear2"></div>
+            <div id="squaricdes">
+              <div id="anothdiv1">
+            </div>
+          </div>
+          <div id="Opacitybg">
+            <div id="likey">
+              <p id="titlelikes">WHAT I LIKE AND DISLIKE?</p>
+            </div>
+            <p id="textlikey">What I like are milktea, graham, cold temperature, and black shirts.</p>
+            <p id="textdislikey">What I dislike are nuts(especially this one because it triggers my stomach), hot places, heights, and too much noise.</p>
+          </div>
+          <div id="line4">
+          </div>
+          <div id="line5">
+          </div>
+
+          <img id="yes" src="yes.gif">
+          <div id="squaregif3">
+          </div>
+
+          <div id="obstruct1">
+          </div>
+          <div id="obstruct2">
+          </div>
+          <div id="line6">
+          </div>
+          <div id="obstruct3">
+          </div>
+          <div id="squaregif4">
+          </div>
+          <div id="container-ascent">
+            <img id="ascent-bg" src="ascentbg.png">
+          </div>
+          <p id="peborit">FAVORITES</p>
+          <p id="sports1">SPORTS</p>
+          <p id="hobbies1">HOBBIES</p>
+          <p id="others">OTHERS</p>
+          <div class="sports-container">
+            <p id="sports-parag">The sports I play are badminton, board games, darts,and basketball(not much).</p>
+            <img id="chess" src="chess.png">
+          </div>
+          <div class="hobbies-container">
+            <p id="hobbies-parag">My hobbies are playing games like Valorant,Mobile Legend, Call of Duty, also sports, jugging, streaming anime, and drawing.</p>
+            <img id="valorant" src="valorant.png">
+          </div>
+          <div class="others-container">
+            <p id="others-parag">The other things that are my favorite are Music especially Ikaw Lang by NOBITA, horror movies, and anime.</p>
+            <img id="anime" src="9anime.png">
+          </div>
+          <div id="cover1"></div>
+          <div id="cover2"></div>
+          <div id="cover3"></div>
+          <div id="funfact-container">
+          <a href="htpps://facebook.com" class="fa fa-facebook"></a>
+          <a href="htpps://twitter.com" class="fa fa-twitter"></a>
+          <a href="htpps://google.com" class="fa fa-google"></a>
+          <p id="fun">Funfacts: I can play ML using 1 hand and I am also proud of my drawings in schools.</p>
+        </div>
+        <div id="up1"></div>
+        <div id="low1"></div>
+        <div id="squaregif5">
+          <div id="linear3">
+          </div>
+        </div>
+
+
+
+  </body>
+
+  </html>
